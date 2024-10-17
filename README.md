@@ -21,7 +21,8 @@ This project demonstrates the use of **feature extraction** with a pre-trained *
 
 3. **Install dependencies:**
     ```bash
-    pip install -r requirements.txt
+    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+    pip install seaborn
 4. **Ensure PyTorch detects CUDA (if you plan to use GPU, which would reduce overhead since we are image processing):**
     ```bash
     python -c "import torch; print(torch.cuda.  is_available())"
@@ -98,6 +99,7 @@ Use the following command to install the required packages:
 Ensure you installed the correct version of PyTorch with CUDA support. Try:
     
     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+    pip install seaborn
 
 
 
